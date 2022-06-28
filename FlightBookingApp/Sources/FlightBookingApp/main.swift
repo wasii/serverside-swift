@@ -9,6 +9,7 @@ let server = HTTPServer()
 //Server will listen '8090' port
 server.serverPort = 8090
 
+server.addRoutes(setupRouter())
 
 //Start Server
 do {
